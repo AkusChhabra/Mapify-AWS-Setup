@@ -1,0 +1,18 @@
+{
+  "name": "postgres",
+  "version": "1.0.0",
+  "main": "postgres.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Akus C.",
+  "license": "ISC",
+  "description": "Fetch Postgres Mapify DB on AWS RDS ",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "fs": "^0.0.1-security",
+    "pg": "^8.14.1"
+  },
+  "module": "CommonJS",
+  "type": "module"
+}
