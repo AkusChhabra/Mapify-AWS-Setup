@@ -4,7 +4,7 @@ import express from "express";
 import pg from "pg";
 import fs from "fs";
 
-const {Pool, Client} = pg
+const {Pool} = pg
 
 console.log("PGUSER: ", process.env.PGUSER)
 
@@ -17,7 +17,7 @@ const db_config = {
     ssl: { 
         require: true,
         rejectUnauthorized: true,
-        ca: fs.readFileSync('C:/Users/akusc/MusicBrainz/PostgreSQL_Script/rds-ca-cert.pem').toString(), //rds-ca-rsa2048-g1
+        ca: fs.readFileSync('./rds-ca-cert.pem').toString(), //rds-ca-rsa2048-g1
     } 
 }
 
