@@ -1,3 +1,4 @@
 .env
 pg.js
 *.pem
+*.csv

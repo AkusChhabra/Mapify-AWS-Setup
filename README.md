@@ -12,7 +12,7 @@ To convert raw data files to csv, use the ```InputToCSV.js``` file
 node InputToCSV.js
 ```
 
-Upload the resultant .CSV data to server either using <a href="https://www.pgadmin.org/download/pgadmin-4-windows/">pgAdmin4</a>, <a href="https://tableplus.com">TablesPlus</a>, or PSQL shell.
+Upload the resultant .CSV data to the server using <a href="https://www.pgadmin.org/download/pgadmin-4-windows/">pgAdmin4</a>, <a href="https://tableplus.com">TablesPlus</a>, or PSQL shell.
 
 # Library Installation
 
