@@ -2,3 +2,4 @@
 pg.js
 *.pem
 *.csv
+/csv_data
